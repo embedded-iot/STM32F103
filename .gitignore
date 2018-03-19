@@ -1,1 +1,5 @@
-*.agdai
+/Project/*.MEOMEO
+/Project/Objects
+/Project/Listings
+/Project/*.scvd
+/Project/*.uvoptx
