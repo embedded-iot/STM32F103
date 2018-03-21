@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F10X_MD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Libraries\CMSIS\CM3\CoreSupport;..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm;..\Libraries\STM32F10x_StdPeriph_Driver\inc;.\USER;.\MODULE\delay;.\MODULE\i2c;.\MODULE\ds1307;.\MODULE\lcd</IncludePath>
+              <IncludePath>..\Libraries\CMSIS\CM3\CoreSupport;..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm;..\Libraries\STM32F10x_StdPeriph_Driver\inc;.\USER;.\MODULE\delay;.\MODULE\i2c;.\MODULE\ds1307;.\MODULE\lcd;.\MODULE\gpio</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -559,6 +559,11 @@
               <FileName>ds1307.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\MODULE\ds1307\ds1307.c</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MODULE\gpio\gpio.c</FilePath>
             </File>
           </Files>
         </Group>
